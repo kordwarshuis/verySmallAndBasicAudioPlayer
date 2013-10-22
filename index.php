@@ -37,8 +37,6 @@
     <p>
         icons credit: <a href="http://www.iconarchive.com/">http://www.iconarchive.com/</a>
     </p>
-
-    <a href="http://www.woudziel.nl"><img id="logo" src="../img/logo.png" alt="dwarshuis front-end web developer"/></a>
     <script src="js/general.js"></script>
 </body>
 </html>
