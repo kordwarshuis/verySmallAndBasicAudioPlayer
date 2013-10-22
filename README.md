@@ -29,3 +29,6 @@ foo.stop();
 ```
 
 5: You can now attach this to any DOM element, like buttons, images, paragraphs, whatever.
+
+## Browser and machine compatibility
+Tested on Latest FireFox, latest Chrome, Internet Explorer 10 (9 should also work), iPhone (iOS7), iPad (iOS7), Samsung galaxy tab 2.0, 7 inch.
