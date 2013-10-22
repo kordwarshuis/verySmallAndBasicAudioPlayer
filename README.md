@@ -10,17 +10,23 @@ See <a href="http://www.woudziel.nl/githubdemo/verySmallAndBasicAudioPlayer/">de
 Create sound-files. You need an .mp3 and an .ogg version of everything. Audicity (http://audacity.sourceforge.net/) is great for this.
 
 Create an object
-```var foo = verySmallAndBasicAudioPlayer({
+```
+var foo = verySmallAndBasicAudioPlayer({
     path: "path/to/sound", // required
     volume: 1, // optional, default = 1
     loop: true // optional, default = false
-});```
+});
+```
 
 Start the sound:
-```foo.start();```
+```
+foo.start();
+```
 
 Stop the sound:
-```foo.stop();```
+```
+foo.stop();
+```
 
 
 
