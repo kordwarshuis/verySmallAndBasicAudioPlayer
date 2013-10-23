@@ -5,6 +5,7 @@
     <title>verySmallAndBasicAudioPlayer</title>
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     <link href="css/general.css" rel="stylesheet">
+    <script src="js/modernizr.custom.97313.js"></script>
 </head>
 <body>
     <img id="play2"  src="img/Emotes-face-embarrassed-icon.png" alt="face embarrassed" />

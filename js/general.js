@@ -78,9 +78,12 @@ var testStartAndStop = verySmallAndBasicAudioPlayer({path: "sound/61225__robinho
  * Function to add mousedown and touchstart to a bunch of buttons
  */
 function addMouseDownAndTouchStart(args) {
-    for (var i=0; i<args.length; i++) {
-        args[i].target.addEventListener("touchstart", args[i].listener, false);
-        args[i].target.addEventListener("mousedown", args[i].listener, false);
+    for (var i = 0; i < args.length; i++) {
+        if (Modernizr.touch) {
+            args[i].target.addEventListener("touchstart", args[i].listener, false);
+        } else {
+            args[i].target.addEventListener("mousedown", args[i].listener, false);
+        }
     }
 }
 
