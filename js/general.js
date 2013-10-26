@@ -1,7 +1,8 @@
-/**
- *
- * @param args
- * @returns {AudioElement}
+/*
+ * verySmallAndBasicAudioPlayer
+ * Copyright (c) 2013 Kor Dwarshuis (dwarshuis.com)
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/mit-license.php
  */
 var verySmallAndBasicAudioPlayer = function (args) {
     "use strict";
